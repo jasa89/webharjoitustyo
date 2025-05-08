@@ -10,56 +10,45 @@
 <body>
   
   <div class="topnav" id="myTopnav">
-    <a href="#home">Home</a>
+    <a href="javascript:void(0);" class="icon burger" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="./index.html">Home</a>
     <a href="./products.html">Shop</a>
     <a href="./contact.html">Contact</a>
     <a href="./login.html">Login</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#" class="cart-icon">
+    <a href="./cart.html" class="cart-icon">
       <i class="fa fa-shopping-cart"></i>
-      <span id="cart-itemcount"></span>
+      <span id="cart-itemcount">0</span>
     </a>
   </div>
-  
     
   <div class="container">
-       <h1>Welcome to my page</h1>
+       <h1>Shoefactory</h1>
         
-        <p>container area</p>
       </div>
     <div class="content">
-<h2>CSS Template</h2>
 
 <form  id="contactForm">
- 
   <label for="fname">First Name</label>
   <input type="text" id="fname" name="firstname" placeholder="Your name..">
   <label for="lname">Last Name</label>
   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
    <label for="email">email</label>
   <input type="text" id="email" name="email" placeholder="Your email adress..">
-  
-
   <label for="message">Message</label>
-  <textarea id="message" name="subject" placeholder="Send us email..." style="height:200px"></textarea>
-
+  <textarea id="message" name="subject" placeholder="Send us email..."></textarea>
   <input type="submit" value="Submit">
 </form>
-
-<p> content here.</p>
-
 
 </div>
       
       <div class="footer">
         <p>Footer</p>
       </div>
-   
-    
+  
 </body>
-<script src="./js/functions.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/contact.js"></script>
 </html>
 

@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/style.css" rel="stylesheet">
-        <title>login</title>
+        <title>cart</title>
       </head>
-   
+      
     <body>
       <div class="topnav" id="myTopnav">
         <a href="javascript:void(0);" class="icon burger" onclick="myFunction()">
@@ -23,25 +24,16 @@
           <span id="cart-itemcount">0</span>
         </a>
       </div>
-   
-     
-    <div class="container">
+          <div class="container">
            <h1>Shoefactory</h1>
             
-            <p>container area</p>
+        
           </div>
         <div class="content">
-    <h2>CSS Template</h2>
-    <p> content .</p>
-  <form action="#">
-
-    <label>email</label>
-    <input type="text" id="email" name="email" placeholder="Your email.." minlength="20" required/>
-    <label>Password</label>
-    <input type="password" id="password" name="password" placeholder="Your password.." minlength="8" required/>
-    <button type="button">Login</button>
-    
-  </form>
+          <h1>Shopping Cart</h1>
+          <ul id="cart-items"></ul>
+          <p>Total: €<span id="cart-total">0.00</span></p>
+          <button onclick="clearCart()">Clear Cart</button>
     
 </div>
           
@@ -50,5 +42,5 @@
           </div>
     </body>
     <script src="./js/main.js"></script>
-   
+    <script src="./js/cart.js"></script>
     </html>
